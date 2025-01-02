@@ -1,0 +1,16 @@
+
+E
+java:S1066&"/Merge this if statement with the enclosing one.(Ä™ÍÍ
+P
+java:S1141f"5Extract this nested try block into a separate method.(– ½İûÿÿÿÿ
+=
+java:S21892""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+s
+java:S1450"^Remove the "outputDirectory" field and declare it as a local variable in the relevant methods.(İÙ,
+@	java:S1060"+Replace this use of System.out by a logger.(Ÿ‘Æı
+E	java:S1067"+Replace this use of System.err by a logger.(‰³ıÅüÿÿÿÿ
+@	java:S106?"+Replace this use of System.err by a logger.(ñÏÁ·
+@	java:S106F"+Replace this use of System.err by a logger.(ÂÚú
+E	java:S106\"+Replace this use of System.out by a logger.(Ö¢Œ¿øÿÿÿÿ
+@	java:S106h"+Replace this use of System.out by a logger.(á÷Ú
+@	java:S106j"+Replace this use of System.out by a logger.(¯ïÄé
