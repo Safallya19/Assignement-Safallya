@@ -1,6 +1,3 @@
-city
-Bangalore
-email
-chetana@gmail.com
-Name
-Chetana mohanty
+Name: Chetana mohanty
+email: chetana@gmail.com
+123: Bangalore
