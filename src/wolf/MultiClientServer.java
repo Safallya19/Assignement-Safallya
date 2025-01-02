@@ -12,7 +12,6 @@ import java.util.concurrent.Executors;
  */
 public class MultiClientServer {
     private int port;
-    private  String outputDirectory;
     private int maxThreads;
 
     public MultiClientServer(String configFilePath) throws IOException {
@@ -29,15 +28,7 @@ public class MultiClientServer {
         try (FileInputStream fis = new FileInputStream(configFilePath)) {
             config.load(fis);
             port = Integer.parseInt(config.getProperty("serverPort"));
-            outputDirectory = config.getProperty("directoryPath");
             maxThreads = Integer.parseInt(config.getProperty("maxThreads"));
-        }
-
-        File outputDir = new File(outputDirectory);
-        if (!outputDir.exists()) {
-            if (!outputDir.mkdirs()) {
-                throw new IOException("Failed to create output directory: " + outputDirectory);
-            }
         }
     }
 
